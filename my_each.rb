@@ -1,3 +1,6 @@
+  collection = [1, 2, 3, 4]
+  
 def my_each # put argument(s) here
-  # code here
-end
+  my_each(collection) do |i|
+  puts i
+end# code here
